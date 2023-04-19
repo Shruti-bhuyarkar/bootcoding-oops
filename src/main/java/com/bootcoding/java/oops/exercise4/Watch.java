@@ -36,4 +36,7 @@ public class Watch {
         w1.isWorking();
         w1.isWorking();
     }
+    public Watch(){
+        System.out.println("Watch is created");
+    }
 }
