@@ -7,6 +7,10 @@ public class Printpaper {
     String use;
     String brand;
 
+    public Printpaper() {
+
+    }
+
     public void tearPaper(int pieces){
         System.out.println("I have tore paper into " + pieces + " pieces");
     }
