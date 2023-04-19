@@ -25,5 +25,9 @@ public class Switch {
         System.out.println("s1.type =" + s1.type);
         System.out.println(s2.type);
 
+
+    }
+    public Switch(){
+        System.out.println("Switch is created");
     }
 }
