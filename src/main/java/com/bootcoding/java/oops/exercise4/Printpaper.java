@@ -17,14 +17,18 @@ public class Printpaper {
 
     public static void main(String[] args) {
         Printpaper pp = new Printpaper();
-        pp.brand ="navnit";
-        pp.cost = 10.05;
-        pp.Type ="A4";
-        pp.use = "printing";
 
-        System.out.println("pp.cost = "+pp.cost);
+//        pp.brand ="navnit";
+//        pp.cost = 10.05;
+//        pp.Type ="A4";
+//        pp.use = "printing";
+
+        System.out.println(pp.cost);
         pp.tearPaper(5);
         pp.throwPaper();
-    }
 
+    }
+    public Printpaper (String c){
+        System.out.println("Printpaper is created");
+    }
 }
