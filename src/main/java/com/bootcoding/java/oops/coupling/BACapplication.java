@@ -1,4 +1,4 @@
-package com.bootcoding.java.oops.exercise7;
+package com.bootcoding.java.oops.coupling;
 
 import java.util.Random;
 
