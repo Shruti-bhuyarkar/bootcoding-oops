@@ -15,7 +15,7 @@ public class NumberApp {
         NumberService numberService = new NumberService();
         PalindromeService palindromeService = new PalindromeService();
         PrimeNumService primeNumService = new PrimeNumService();
-        //BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/bootcoding/bootcoding-services/numbers.csv"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/bootcoding/bootcoding-services/numbers.csv"));
 
         ArrayList<Number> numbers = new ArrayList<>();
         for(int i = 0; i < 1000; i++){
